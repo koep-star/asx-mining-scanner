@@ -1,0 +1,13 @@
+schedule:
+  # 8:00 AM AEST = 22:00 UTC (previous day)
+  - cron: '0 22 * * *'  # Current setting
+  
+  # Other timezone examples:
+  # 8:00 AM GMT = 8:00 UTC
+  # - cron: '0 8 * * *'
+  
+  # 8:00 AM EST = 13:00 UTC  
+  # - cron: '0 13 * * *'
+  
+  # 8:00 AM PST = 16:00 UTC
+  # - cron: '0 16 * * *'
